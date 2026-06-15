@@ -4,7 +4,7 @@ test('Test Case 1',async ({ page }) => {
     await page.goto('https://testautomationpractice.blogspot.com/');
     await page.getByRole('textbox', { name: 'Enter Name' }).fill('Sachin');
     await page.getByRole('textbox', { name: 'Enter EMail' }).fill('sachin@gmail.com');
-    await page.getByText('Wednesday').click();
+    await page.getByText('Wednesday1').click();
     await page.getByLabel('Country:').selectOption('germany');
     await page.getByLabel('Colors:').selectOption('blue');
     await page.getByLabel('Colors:').selectOption('yellow');
